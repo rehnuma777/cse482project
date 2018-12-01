@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  
-
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Candal">
   <link rel="stylesheet" type="text/css" href="{{asset('frontend/css/font-awesome.min.css')}}">
   <link rel="stylesheet" type="text/css" href="{{asset('frontend/css/bootstrap.min.css')}}">
@@ -11,12 +8,6 @@
   <link rel="stylesheet" type="text/css" href="{{asset('frontend/isotope/css/style.css')}}">
   <link rel="stylesheet" type="text/css" href="{{asset('frontend/isotope/css/bootstrap-datetimepicker.min.css')}}">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
-  <!-- =======================================================
-    Theme Name: Medilab
-    Theme URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
-    Author: BootstrapMade.com
-    Author URL: https://bootstrapmade.com
-  ======================================================= -->
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -54,7 +45,7 @@
             </div>
             <div class="banner-text text-center">
               <h1 class="white">Healthcare at your desk!!</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p>We provide Fast and Proper Medical Treatment at your <br>earliest convenience.</p>
               <a href="#appointment" class="btn btn-appoint">Make an Appointment.</a>
             </div>
             <div class="overlay-detail text-center">
@@ -68,7 +59,7 @@
   <!--/ banner-->
   <!--service-->
   <section id="doctors" class="section-padding">
-    <h2 class="text-center">Doctors Categories</h2>
+    <h2 class="text-center"> Our Doctor Categories</h2>
     <br><br>
 
  
