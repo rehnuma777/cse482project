@@ -171,8 +171,7 @@
       </div>
     </div>
   </section>
-  <!--/ about-->
-  <!--doctor team-->
+
   <section id="doctor-team" class="section-padding">
     <div class="container">
       <div class="row">
@@ -203,8 +202,8 @@
       </div>
     </div>
   </section>
-  <!--/ doctor team-->
-  <!--testimonial-->
+  
+  
   <section id="testimonial" class="section-padding">
     <div class="container">
       <div class="row">
