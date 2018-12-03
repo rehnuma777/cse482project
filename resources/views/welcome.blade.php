@@ -144,7 +144,7 @@
       <div class="row">
         <div class="col-md-3 col-sm-4 col-xs-12">
           <div class="section-title">
-            <h2 class="head-title lg-line">The Medilap <br>Ultimate Dream</h2>
+            <h2 class="head-title lg-line">The Medilab+ <br>Ultimate Dream</h2>
             <hr class="botm-line">
             <p class="sec-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..</p>
             <a href="" style="color: #0cb8b6; padding-top:10px;">Know more..</a>
@@ -214,37 +214,37 @@
         <div class="col-md-4 col-sm-4">
           <div class="testi-details">
             <!-- Paragraph -->
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Thanks Medilab+ for creating this wonderful platform!</p>
           </div>
           <div class="testi-info">
             <!-- User Image -->
-            <a href="#"><img src="{{URL::to('frontend/img/thumb.png')}}" alt="" class="img-responsive"></a>
+            <a href="#"><img src="{{URL::to('frontend/img/d.jpg')}}" alt="" class="img-responsive"></a>
             <!-- User Name -->
-            <h3>Alex<span>Texas</span></h3>
+            <h3>Shehzad<span>Ali</span></h3>
           </div>
         </div>
         <div class="col-md-4 col-sm-4">
           <div class="testi-details">
             <!-- Paragraph -->
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>I booked an appoinment on 2nd december. Got great service.</p>
           </div>
           <div class="testi-info">
             <!-- User Image -->
-            <a href="#"><img src="{{URL::to('frontend/img/thumb.png')}}" alt="" class="img-responsive"></a>
+            <a href="#"><img src="{{URL::to('frontend/img/b.jpg')}}" alt="" class="img-responsive"></a>
             <!-- User Name -->
-            <h3>Alex<span>Texas</span></h3>
+            <h3>Mahbub<span>Rahman</span></h3>
           </div>
         </div>
         <div class="col-md-4 col-sm-4">
           <div class="testi-details">
             <!-- Paragraph -->
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Very good service. I am very pleased! Thanks Medilab+</p>
           </div>
           <div class="testi-info">
             <!-- User Image -->
-            <a href="#"><img src="{{URL::to('frontend/img/thumb.png')}}" alt="" class="img-responsive"></a>
+            <a href="#"><img src="{{URL::to('frontend/img/c.jpg')}}" alt="" class="img-responsive"></a>
             <!-- User Name -->
-            <h3>Alex<span>Texas</span></h3>
+            <h3>Alex<span>khan</span></h3>
           </div>
         </div>
       </div>
@@ -260,8 +260,8 @@
           <h2 class="section-title white lg-line">« A few words<br> about us »</h2>
         </div>
         <div class="col-md-4 col-sm-5">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a typek
-          <p class="text-right text-primary"><i>— Medilap Healthcare</i></p>
+          If you require an appointment service then Medilab is the right choice for you. We are dedicated to serve patients first.
+          <p class="text-right text-primary"><i>— Medilab+</i></p>
         </div>
         <div class="col-md-2"></div>
       </div>
@@ -279,7 +279,7 @@
         <div class="col-md-4 col-sm-4">
           <h3>Contact Info</h3>
           <div class="space"></div>
-          <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>Medilab<br> Bangladesh, 1213</p>
+          <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>Medilab+<br> Bangladesh, 1213</p>
           <div class="space"></div>
           <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>medilab@edu</p>
           <div class="space"></div>
@@ -334,7 +334,7 @@
               <h4 class="white no-padding">About Us</h4>
             </div>
             <div class="info-sec">
-              <p>Praesent convallis tortor et enim laoreet, vel consectetur purus latoque penatibus et dis parturient.</p>
+              <p>If you require an appointment service then Medilab is the right choice for you. We are dedicated to serve patients first.</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-4 marb20">
