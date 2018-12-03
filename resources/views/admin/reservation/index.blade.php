@@ -75,7 +75,7 @@
                                   action="{{ route('reservation.status',$reservation->id) }}" style="display: none;" method="POST">
                                 @csrf
                             </form>
-                            <button type="button" class="btn btn-info btn-sm" onclick="if(confirm('Are you sure?')){
+                            <button type="button" class="btn btn-info btn-sm" onclick="if(confirm('Are you sure to confirm?')){
                                     event.preventDefault();
                                     document.getElementById('status-form-{{ $reservation->id }}').submit();
                                     }else {
@@ -86,7 +86,7 @@
                             @csrf
                             @method('DELETE')
                         </form>
-                        <button type="button" class="btn btn-danger btn-sm" onclick="if(confirm('Are you sure to deltee this?')){
+                        <button type="button" class="btn btn-danger btn-sm" onclick="if(confirm('Are you sure to delete this?')){
                                 event.preventDefault();
                                 document.getElementById('delete-form-{{ $reservation->id }}').submit();
                                 }else {
