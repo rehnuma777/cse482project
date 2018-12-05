@@ -118,16 +118,16 @@
               <table style="margin: 8px 0px 0px;" border="1">
                 <tbody>
                   <tr>
-                    <td>Monday - Friday</td>
-                    <td>8.00 - 17.00</td>
+                    <td>Sunday - Thursday</td>
+                    <td>8.00AM - 10.00PM</td>
+                  </tr>
+                  <tr>
+                    <td>Friday</td>
+                    <td>9.30AM - 7.30PM</td>
                   </tr>
                   <tr>
                     <td>Saturday</td>
-                    <td>9.30 - 17.30</td>
-                  </tr>
-                  <tr>
-                    <td>Sunday</td>
-                    <td>9.30 - 15.00</td>
+                    <td>9.30AM - 9.00PM</td>
                   </tr>
                 </tbody>
               </table>
