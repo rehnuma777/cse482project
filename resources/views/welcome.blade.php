@@ -193,8 +193,6 @@
       </div>
     </div>
   </section>
-  
-  
   <section id="testimonial" class="section-padding">
     <div class="container">
       <div class="row">
