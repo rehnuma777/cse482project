@@ -72,7 +72,6 @@
        <li data-filter="{{$service->id}}">{{$service->speciality}}</li>
          @endforeach
     </ul>
-  
   </div>
 </div>
 <div class="container"> 
@@ -87,8 +86,6 @@
 </div>
 <hr>
   </section>
-  <!--/ service-->
-  <!--cta-->
   <section id="cta-1" class="section-padding">
     <div class="container">
       <div class="row">
