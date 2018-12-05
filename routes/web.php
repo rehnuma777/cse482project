@@ -16,9 +16,6 @@ Route::post('/reservation','ReservationController@reserve')->name('reservation.r
 
 Auth::routes();
 
-
-
-
 //for creating a route group
 Route::group(['prefix'=>'admin','middleware'=>'auth','namespace'=>'admin'], function(){
 
