@@ -81,7 +81,6 @@
       <li class="item" id="{{$items->service->id}}"> <a href="#">{{$items->service->name}}</a> , </li>
       @endforeach
     </ul>
-    
   </div>
 </div>
 <hr>
