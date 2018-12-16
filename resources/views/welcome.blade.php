@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <title>Digital Doctor</title>
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Candal">
   <link rel="stylesheet" type="text/css" href="{{asset('frontend/css/font-awesome.min.css')}}">
   <link rel="stylesheet" type="text/css" href="{{asset('frontend/css/bootstrap.min.css')}}">
@@ -32,8 +33,7 @@
                 <li class=""><a href="#about">About</a></li>
                 <li class=""><a href="#testimonial">Testimonial</a></li>
                 <li class=""><a href="#appointment">Appointment</a></li>
-                <li class=""><a href="{{asset('dispensary/home.php')}}">Dispensary</a></li>
-                
+                <li class=""><a href="{{URL::to('fireauth.php')}}">Sign In</a></li>
               </ul>
             </div>
           </div>
@@ -43,7 +43,7 @@
         <div class="row">
           <div class="banner-info">
             <div class="banner-logo text-center">
-              <img src="{{URL::to('frontend/img/logo.png')}}" class="img-responsive">
+              <img src="{{URL::to('frontend/img/logo2.png')}}" class="img-responsive">
             </div>
             <div class="banner-text text-center">
               <h1 class="white">Healthcare at your desk!!</h1>
@@ -94,37 +94,35 @@
           <div class="col-md-4 col-sm-4 bor-left">
             <div class="mt-boxy-color"></div>
             <div class="medi-info">
-              <h3>Emergency Hotline</h3>
-              <p style="color:black;">For any medical emergency please call our hotline line number: <br>
-              <big>+88011112222333</big> </p>
-          
+              <h3>Emergency Case</h3>
+              <p>I am text block. Edit this text from Appearance / Customize / Homepage header columns. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+              <a href="#" class="medi-info-btn">READ MORE</a>
             </div>
           </div>
           <div class="col-md-4 col-sm-4">
             <div class="medi-info">
-              <h3>Emergency Ambulance</h3>
-              <p style="color:black;">For Fast and Reliable Ambulance Service at very cheap rate, please call our ambulance service number:<br>
-                <big>+880123123123</big></p>
-             
+              <h3>Emergency Case</h3>
+              <p>I am text block. Edit this text from Appearance / Customize / Homepage header columns. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+              <a href="#" class="medi-info-btn">READ MORE</a>
             </div>
           </div>
           <div class="col-md-4 col-sm-4 mt-boxy-3">
             <div class="mt-boxy-color"></div>
             <div class="time-info">
-              <h3>Working Hours</h3>
+              <h3>Opening Hours</h3>
               <table style="margin: 8px 0px 0px;" border="1">
                 <tbody>
                   <tr>
                     <td>Sunday - Thursday</td>
-                    <td>8.00AM - 11.00PM</td>
+                    <td>8.00AM - 10.00PM</td>
                   </tr>
                   <tr>
                     <td>Friday</td>
-                    <td>9.30AM - 9.30PM</td>
+                    <td>9.30AM - 7.30PM</td>
                   </tr>
                   <tr>
                     <td>Saturday</td>
-                    <td>9.30AM - 10.00PM</td>
+                    <td>9.30AM - 9.00PM</td>
                   </tr>
                 </tbody>
               </table>
@@ -139,20 +137,10 @@
       <div class="row">
         <div class="col-md-3 col-sm-4 col-xs-12">
           <div class="section-title">
-            <h2 class="head-title lg-line">The Medilab+ <br>Ultimate Dream</h2>
+            <h2 class="head-title lg-line">The Digital Doctor <br>Ultimate Dream</h2>
             <hr class="botm-line">
-            <p class="sec-para" style="color:red;">A family of hospitals for your family.<br>
-A Passion for Healing.<br>
-A passion for putting patients first.<br>
-A Transforming, Healing Presence.<br>
-A Union of Compassion + Healthcare.<br>
-Advanced Healthcare Made Personal.<br>
-Advanced Medicine, Trusted Care.<br>
-Because Your Life Matters.<br>
-Best of Care, Close to Home.<br>
-Better for you.<br>
-By Your Side.</p>
-           
+            <p class="sec-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..</p>
+            <a href="" style="color: #0cb8b6; padding-top:10px;">Know more..</a>
           </div>
         </div>
         <div class="col-md-9 col-sm-8 col-xs-12">
@@ -160,22 +148,15 @@ By Your Side.</p>
             <div class="more-features-box-text">
               <div class="more-features-box-text-icon"> <i class="fa fa-angle-right" aria-hidden="true"></i> </div>
               <div class="more-features-box-text-description">
-                <h3>OUR MISSON</h3>
-                <p>Providing quality healthcare and promoting the well-being of those we serve..</p>
+                <h3>It's something important you want to know.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud.</p>
               </div>
             </div>
             <div class="more-features-box-text">
               <div class="more-features-box-text-icon"> <i class="fa fa-angle-right" aria-hidden="true"></i> </div>
               <div class="more-features-box-text-description">
-                <h3>OUR VISION</h3>
-                <p>To be the trusted choice for healthcare and wellness in our communities.</p>
-              </div>
-            </div>
-            <div class="more-features-box-text">
-              <div class="more-features-box-text-icon"> <i class="fa fa-angle-right" aria-hidden="true"></i> </div>
-              <div class="more-features-box-text-description">
-                <h3>OUR MOTTO</h3>
-                <p>Progressive Healthcare, Hometown Compassion</p>
+                <h3>It's something important you want to know.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud.</p>
               </div>
             </div>
           </div>
@@ -224,7 +205,7 @@ By Your Side.</p>
         <div class="col-md-4 col-sm-4">
           <div class="testi-details">
             <!-- Paragraph -->
-            <p>Thanks Medilab+ for creating this wonderful platform!</p>
+            <p>Thanks Digital Doctor for creating this wonderful platform!</p>
           </div>
           <div class="testi-info">
             <!-- User Image -->
@@ -248,7 +229,7 @@ By Your Side.</p>
         <div class="col-md-4 col-sm-4">
           <div class="testi-details">
             <!-- Paragraph -->
-            <p>Very good service. I am very pleased! Thanks Medilab+</p>
+            <p>Very good service. I am very pleased! Thanks Digital Doctor</p>
           </div>
           <div class="testi-info">
             <!-- User Image -->
@@ -270,8 +251,8 @@ By Your Side.</p>
           <h2 class="section-title white lg-line">« A few words<br> about us »</h2>
         </div>
         <div class="col-md-4 col-sm-5">
-          If you require an appointment service then Medilab is the right choice for you. We are dedicated to serve patients first.
-          <p class="text-right text-primary"><i>— Medilab+</i></p>
+          If you require an appointment service then Digital Doctor is the right choice for you. We are dedicated to serve patients first.
+          <p class="text-right text-primary"><i>— Digital Doctor</i></p>
         </div>
         <div class="col-md-2"></div>
       </div>
@@ -289,7 +270,7 @@ By Your Side.</p>
         <div class="col-md-4 col-sm-4">
           <h3>Contact Info</h3>
           <div class="space"></div>
-          <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>Medilab+<br> Bangladesh, 1213</p>
+          <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>Digital Doctor<br> Bangladesh, 1213</p>
           <div class="space"></div>
           <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>medilab@edu</p>
           <div class="space"></div>
@@ -344,7 +325,7 @@ By Your Side.</p>
               <h4 class="white no-padding">About Us</h4>
             </div>
             <div class="info-sec">
-              <p>If you require an appointment service then Medilab is the right choice for you. We are dedicated to serve patients first.</p>
+              <p>If you require an appointment service then Digital Doctor is the right choice for you. We are dedicated to serve patients first.</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-4 marb20">
@@ -365,10 +346,10 @@ By Your Side.</p>
             </div>
             <div class="info-sec">
               <ul class="social-icon">
-                <li class="bglight-blue"><i class="fa fa-facebook"></i></li>
-                <li class="bgred"><i class="fa fa-google-plus"></i></li>
-                <li class="bgdark-blue"><i class="fa fa-linkedin"></i></li>
-                <li class="bglight-blue"><i class="fa fa-twitter"></i></li>
+                <li class="bglight-blue"><a href="https://www.facebook.com/Digital-Doctor-380577215843612/" class="fa fa-facebook"></a></li>
+                <li class="bgred"><a href="#" class="fa fa-google-plus"></a></li>
+                <li class="bgdark-blue"><a href="#"class="fa fa-linkedin"></a></li>
+                <li class="bglight-blue"><a href="#" class="fa fa-twitter"></a></i></li>
               </ul>
             </div>
           </div>
