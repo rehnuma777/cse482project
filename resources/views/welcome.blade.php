@@ -32,6 +32,7 @@
                 <li class=""><a href="#about">About</a></li>
                 <li class=""><a href="#testimonial">Testimonial</a></li>
                 <li class=""><a href="#appointment">Appointment</a></li>
+                <li class=""><a href="dispensary/home.php">Dispensary</a></li>
               </ul>
             </div>
           </div>
