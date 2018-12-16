@@ -139,7 +139,7 @@
           <div class="section-title">
             <h2 class="head-title lg-line">The Medilab+ <br>Ultimate Dream</h2>
             <hr class="botm-line">
-            <p class="sec-para">A family of hospitals for your family.<br>
+            <p class="sec-para" style="color:red;">A family of hospitals for your family.<br>
 A Passion for Healing.<br>
 A passion for putting patients first.<br>
 A Transforming, Healing Presence.<br>
@@ -158,15 +158,22 @@ By Your Side.</p>
             <div class="more-features-box-text">
               <div class="more-features-box-text-icon"> <i class="fa fa-angle-right" aria-hidden="true"></i> </div>
               <div class="more-features-box-text-description">
-                <h3>It's something important you want to know.</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud.</p>
+                <h3>OUR MISSON</h3>
+                <p>Providing quality healthcare and promoting the well-being of those we serve..</p>
               </div>
             </div>
             <div class="more-features-box-text">
               <div class="more-features-box-text-icon"> <i class="fa fa-angle-right" aria-hidden="true"></i> </div>
               <div class="more-features-box-text-description">
-                <h3>It's something important you want to know.</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud.</p>
+                <h3>OUR VISION</h3>
+                <p>To be the trusted choice for healthcare and wellness in our communities.</p>
+              </div>
+            </div>
+            <div class="more-features-box-text">
+              <div class="more-features-box-text-icon"> <i class="fa fa-angle-right" aria-hidden="true"></i> </div>
+              <div class="more-features-box-text-description">
+                <h3>OUR MOTTO</h3>
+                <p>Progressive Healthcare, Hometown Compassion</p>
               </div>
             </div>
           </div>
