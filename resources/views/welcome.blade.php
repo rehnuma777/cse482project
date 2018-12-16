@@ -33,6 +33,7 @@
                 <li class=""><a href="#about">About</a></li>
                 <li class=""><a href="#testimonial">Testimonial</a></li>
                 <li class=""><a href="#appointment">Appointment</a></li>
+                <li class=""><a href="{{asset('dispensary/home.php')}}">Dispensary</a></li>
                 <li class=""><a href="{{URL::to('fireauth.php')}}">Sign In</a></li>
               </ul>
             </div>
