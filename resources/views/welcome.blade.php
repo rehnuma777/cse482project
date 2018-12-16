@@ -92,35 +92,37 @@
           <div class="col-md-4 col-sm-4 bor-left">
             <div class="mt-boxy-color"></div>
             <div class="medi-info">
-              <h3>Emergency Case</h3>
-              <p>I am text block. Edit this text from Appearance / Customize / Homepage header columns. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-              <a href="#" class="medi-info-btn">READ MORE</a>
+              <h3>Emergency Hotline</h3>
+              <p style="color:black;">For any medical emergency please call our hotline line number: <br>
+              <big>+88011112222333</big> </p>
+          
             </div>
           </div>
           <div class="col-md-4 col-sm-4">
             <div class="medi-info">
-              <h3>Emergency Case</h3>
-              <p>I am text block. Edit this text from Appearance / Customize / Homepage header columns. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-              <a href="#" class="medi-info-btn">READ MORE</a>
+              <h3>Emergency Ambulance</h3>
+              <p style="color:black;">For Fast and Reliable Ambulance Service at very cheap rate, please call our ambulance service number:<br>
+                <big>+880123123123</big></p>
+             
             </div>
           </div>
           <div class="col-md-4 col-sm-4 mt-boxy-3">
             <div class="mt-boxy-color"></div>
             <div class="time-info">
-              <h3>Opening Hours</h3>
+              <h3>Working Hours</h3>
               <table style="margin: 8px 0px 0px;" border="1">
                 <tbody>
                   <tr>
                     <td>Sunday - Thursday</td>
-                    <td>8.00AM - 10.00PM</td>
+                    <td>8.00AM - 11.00PM</td>
                   </tr>
                   <tr>
                     <td>Friday</td>
-                    <td>9.30AM - 7.30PM</td>
+                    <td>9.30AM - 9.30PM</td>
                   </tr>
                   <tr>
                     <td>Saturday</td>
-                    <td>9.30AM - 9.00PM</td>
+                    <td>9.30AM - 10.00PM</td>
                   </tr>
                 </tbody>
               </table>
@@ -137,8 +139,18 @@
           <div class="section-title">
             <h2 class="head-title lg-line">The Medilab+ <br>Ultimate Dream</h2>
             <hr class="botm-line">
-            <p class="sec-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..</p>
-            <a href="" style="color: #0cb8b6; padding-top:10px;">Know more..</a>
+            <p class="sec-para">A family of hospitals for your family.<br>
+A Passion for Healing.<br>
+A passion for putting patients first.<br>
+A Transforming, Healing Presence.<br>
+A Union of Compassion + Healthcare.<br>
+Advanced Healthcare Made Personal.<br>
+Advanced Medicine, Trusted Care.<br>
+Because Your Life Matters.<br>
+Best of Care, Close to Home.<br>
+Better for you.<br>
+By Your Side.</p>
+           
           </div>
         </div>
         <div class="col-md-9 col-sm-8 col-xs-12">
