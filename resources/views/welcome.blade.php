@@ -95,22 +95,22 @@
           <div class="col-md-4 col-sm-4 bor-left">
             <div class="mt-boxy-color"></div>
             <div class="medi-info">
-              <h3>Emergency Case</h3>
-              <p>I am text block. Edit this text from Appearance / Customize / Homepage header columns. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-              <a href="#" class="medi-info-btn">READ MORE</a>
+              <h3>Emergency Hotline</h3>
+              <p style="color:black;">Please Call us in case of any emergency: <strong>+9798723984</strong></p>
+             
             </div>
           </div>
           <div class="col-md-4 col-sm-4">
             <div class="medi-info">
-              <h3>Emergency Case</h3>
-              <p>I am text block. Edit this text from Appearance / Customize / Homepage header columns. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-              <a href="#" class="medi-info-btn">READ MORE</a>
+              <h3>Emergency Ambulance</h3>
+                 <p style="color:black;">Please Call us to get ambulance service at cheapest rate: <strong>+9798723984</strong></p>
+              
             </div>
           </div>
           <div class="col-md-4 col-sm-4 mt-boxy-3">
             <div class="mt-boxy-color"></div>
             <div class="time-info">
-              <h3>Opening Hours</h3>
+              <h3>Working Hours</h3>
               <table style="margin: 8px 0px 0px;" border="1">
                 <tbody>
                   <tr>
@@ -140,8 +140,18 @@
           <div class="section-title">
             <h2 class="head-title lg-line">The Digital Doctor <br>Ultimate Dream</h2>
             <hr class="botm-line">
-            <p class="sec-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..</p>
-            <a href="" style="color: #0cb8b6; padding-top:10px;">Know more..</a>
+            <p class="sec-para">A family of hospitals for your family.<br>
+A Passion for Healing.<br>
+A passion for putting patients first.<br>
+A Transforming, Healing Presence.<br>
+A Union of Compassion + Healthcare.<br>
+Advanced Healthcare Made Personal.<br>
+Advanced Medicine, Trusted Care.<br>
+Because Your Life Matters.<br>
+Best of Care, Close to Home.<br>
+Better for you.<br>
+By Your Side.</p>
+         
           </div>
         </div>
         <div class="col-md-9 col-sm-8 col-xs-12">
@@ -149,15 +159,22 @@
             <div class="more-features-box-text">
               <div class="more-features-box-text-icon"> <i class="fa fa-angle-right" aria-hidden="true"></i> </div>
               <div class="more-features-box-text-description">
-                <h3>It's something important you want to know.</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud.</p>
+                <h3>OUR MISSION</h3>
+                <p>"Our Mission is to bring healthcare of international standards within the reach of every individual. We are committed to the achievement and maintenance of excellence in education, research and healthcare for the benefit of humanity"</p>
               </div>
             </div>
             <div class="more-features-box-text">
               <div class="more-features-box-text-icon"> <i class="fa fa-angle-right" aria-hidden="true"></i> </div>
               <div class="more-features-box-text-description">
-                <h3>It's something important you want to know.</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud.</p>
+                <h3>OUR VISION</h3>
+                <p>To be recognized as a health care industry leader, valued by patients and healthcare providers, respected by the health care community, sought after as an employer and admired by their competitors.</p>
+              </div>
+            </div>
+            <div class="more-features-box-text">
+              <div class="more-features-box-text-icon"> <i class="fa fa-angle-right" aria-hidden="true"></i> </div>
+              <div class="more-features-box-text-description">
+                <h3>OUR MOTTO</h3>
+                <p>‘U & I CARED’ U – Urgency of work I – Integrity & honesty C – Commitment A – Accountability R – Respect and Mutual Trust E – Empathetic Teams D – Development of People</p>
               </div>
             </div>
           </div>
