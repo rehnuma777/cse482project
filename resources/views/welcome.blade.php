@@ -290,7 +290,7 @@ By Your Side.</p>
           <div class="space"></div>
           <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>Digital Doctor<br> Bangladesh, 1213</p>
           <div class="space"></div>
-          <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>medilab@edu</p>
+          <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>DigitalDoctor@edu</p>
           <div class="space"></div>
           <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>+880 167 111 0000</p>
         </div>
