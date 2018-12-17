@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.9
+-- version 4.7.4
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 17, 2018 at 12:48 PM
--- Server version: 10.1.31-MariaDB
--- PHP Version: 7.2.3
+-- Generation Time: Dec 17, 2018 at 06:53 PM
+-- Server version: 10.1.28-MariaDB
+-- PHP Version: 7.1.11
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -52,13 +52,6 @@ CREATE TABLE `cart` (
   `ip_add` varchar(255) NOT NULL,
   `qty` int(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `cart`
---
-
-INSERT INTO `cart` (`p_id`, `ip_add`, `qty`) VALUES
-(23, '127.0.0.1', 0);
 
 -- --------------------------------------------------------
 
@@ -112,7 +105,8 @@ CREATE TABLE `customers` (
 --
 
 INSERT INTO `customers` (`customer_id`, `customer_ip`, `customer_name`, `customer_email`, `customer_pass`, `customer_city`, `customer_location`, `customer_contact`) VALUES
-(41, '::1', 'abu ashraf', 'abuashraf00@yahoo.com', 'Abu12345', 'Dhaka', 'khilgaon', '01674200740');
+(41, '::1', 'abu ashraf', 'abuashraf00@yahoo.com', 'Abu12345', 'Dhaka', 'khilgaon', '01674200740'),
+(42, '127.0.0.1', 'rehnuma tabassum', 'rtahana@gmail.com', 'â­•[·	J;m[‘ª7', 'Dhaka', '', '01688190096');
 
 -- --------------------------------------------------------
 
@@ -198,7 +192,21 @@ CREATE TABLE `products` (
 INSERT INTO `products` (`product_id`, `product_title`, `product_category`, `product_price`, `product_description`, `product_image`, `product_keyword`, `product_type`) VALUES
 (23, 'Ace Plus', '12', 100, 'Indication: \r\nFever, headache, migraine, muscle ache, backache, toothache & menstrual pain.\r\n\r\nDosage & Administration:\r\nAdults: 1-2 tablets every 4-6 hours. Maximum dose: 8 tablets daily. Not recommended for children below 12 years.\r\n\r\nPreparation: \r\nEac', 'product_images/ACE-PLUS.jpg', 'ace, napa', '13'),
 (24, 'Alatrol', '9', 250, 'INDICATION\r\nAlatrolÂ® is indicated for the relief of symptoms\r\nassociated with seasonal allergic rhinitis due to allergen.\r\nSymptoms treated effectively include sneezing,\r\nrhinorrhea, pruritus, ocular pruritus, tearing and redness\r\nof the eyes.\r\nAlatrolÂ®', 'product_images/alatrol.jpg', 'alatrol, allergy', '13'),
-(25, 'Rolac 20mg', '7', 200, 'INDICATION\r\nAlatrolÂ® is indicated for the relief of symptoms\r\nassociated with seasonal allergic rhinitis due to allergen.\r\nSymptoms treated effectively include sneezing,\r\nrhinorrhea, pruritus, ocular pruritus, tearing and redness\r\nof the eyes.\r\nAlatrolÂ®', 'product_images/rolac.jpg', 'rolac', '13');
+(25, 'Rolac 20mg', '7', 200, 'INDICATION\r\nAlatrolÂ® is indicated for the relief of symptoms\r\nassociated with seasonal allergic rhinitis due to allergen.\r\nSymptoms treated effectively include sneezing,\r\nrhinorrhea, pruritus, ocular pruritus, tearing and redness\r\nof the eyes.\r\nAlatrolÂ®', 'product_images/rolac.jpg', 'rolac', '13'),
+(27, 'Algin 10 mg', 'Select Category', 90, 'Dysentry,Diarrhoea,visceral muscle spasm. Tiemonium is a synthetic anticholinergic drug which strenthens calcium bonding with phospho liquids.', 'product_images/algin.jpg', 'algin', '13'),
+(28, 'Almex', '6', 200, 'Indication: \r\nFever, headache, migraine, muscle ache, backache, toothache & menstrual pain.\r\n\r\nDosage & Administration:\r\nAdults: 1-2 tablets every 4-6 hours. Maximum dose: 8 tablets daily. Not recommended for children below 12 years.\r\n\r\nPreparation: \r\nEac', 'product_images/almex.jpg', 'almex', '13'),
+(29, 'Angivent-MR-35', '7', 190, 'Indication: \r\nFever, headache, migraine, muscle ache, backache, toothache & menstrual pain.\r\n\r\nDosage & Administration:\r\nAdults: 1-2 tablets every 4-6 hours. Maximum dose: 8 tablets daily. Not recommended for children below 12 years.\r\n\r\nPreparation: \r\nEac', 'product_images/ANGIVENT-MR-35.jpg', 'angivent', '13'),
+(30, 'Ciprocin', '8', 200, 'Indication: \r\nFever, headache, migraine, muscle ache, backache, toothache & menstrual pain.\r\n\r\nDosage & Administration:\r\nAdults: 1-2 tablets every 4-6 hours. Maximum dose: 8 tablets daily. Not recommended for children below 12 years.\r\n\r\nPreparation: \r\nEac', 'product_images/ciprocin.jpg', 'ciprocin', '13'),
+(31, 'E-cap', 'Select Category', 20, 'Indication: \r\nFever, headache, migraine, muscle ache, backache, toothache & menstrual pain.\r\n\r\nDosage & Administration:\r\nAdults: 1-2 tablets every 4-6 hours. Maximum dose: 8 tablets daily. Not recommended for children below 12 years.\r\n\r\nPreparation: \r\nEac', 'product_images/ecap.jpg', 'ecap', '14'),
+(32, 'Fitfresh', 'Select Category', 160, 'Indication: \r\nFever, headache, migraine, muscle ache, backache, toothache & menstrual pain.\r\n\r\nDosage & Administration:\r\nAdults: 1-2 tablets every 4-6 hours. Maximum dose: 8 tablets daily. Not recommended for children below 12 years.\r\n\r\nPreparation: \r\nEac', 'product_images/Filfresh.jpg', 'fitfresh', '13'),
+(33, 'Flagyl', 'Select Category', 80, 'Indication: \r\nFever, headache, migraine, muscle ache, backache, toothache & menstrual pain.\r\n\r\nDosage & Administration:\r\nAdults: 1-2 tablets every 4-6 hours. Maximum dose: 8 tablets daily. Not recommended for children below 12 years.\r\n\r\nPreparation: \r\nEac', 'product_images/flagyl.png', 'flagyl', '15'),
+(34, 'fluclox', '12', 180, 'Indication: \r\nFever, headache, migraine, muscle ache, backache, toothache & menstrual pain.\r\n\r\nDosage & Administration:\r\nAdults: 1-2 tablets every 4-6 hours. Maximum dose: 8 tablets daily. Not recommended for children below 12 years.\r\n\r\nPreparation: \r\nEac', 'product_images/fluclox.jpg', 'fluclox', '14'),
+(35, 'Itra', '13', 45, 'Indication: \r\nFever, headache, migraine, muscle ache, backache, toothache & menstrual pain.\r\n\r\nDosage & Administration:\r\nAdults: 1-2 tablets every 4-6 hours. Maximum dose: 8 tablets daily. Not recommended for children below 12 years.\r\n\r\nPreparation: \r\nEac', 'product_images/itra.jpg', 'itra', '14'),
+(36, 'Maxpro', 'Select Category', 160, 'Indication: \r\nFever, headache, migraine, muscle ache, backache, toothache & menstrual pain.\r\n\r\nDosage & Administration:\r\nAdults: 1-2 tablets every 4-6 hours. Maximum dose: 8 tablets daily. Not recommended for children below 12 years.\r\n\r\nPreparation: \r\nEac', 'product_images/maxpro.jpg', 'maxpro', '13'),
+(37, 'Napa-Extra', '14', 90, 'Indication: \r\nFever, headache, migraine, muscle ache, backache, toothache & menstrual pain.\r\n\r\nDosage & Administration:\r\nAdults: 1-2 tablets every 4-6 hours. Maximum dose: 8 tablets daily. Not recommended for children below 12 years.\r\n\r\nPreparation: \r\nEac', 'product_images/Napa-Extra-1.jpg', 'napa', '13'),
+(38, 'Normens', 'Select Category', 120, 'Indication: \r\nFever, headache, migraine, muscle ache, backache, toothache & menstrual pain.\r\n\r\nDosage & Administration:\r\nAdults: 1-2 tablets every 4-6 hours. Maximum dose: 8 tablets daily. Not recommended for children below 12 years.\r\n\r\nPreparation: \r\nEac', 'product_images/normens.jpg', 'normens', '13'),
+(39, 'ORcef', '16', 160, 'Indication: \r\nFever, headache, migraine, muscle ache, backache, toothache & menstrual pain.\r\n\r\nDosage & Administration:\r\nAdults: 1-2 tablets every 4-6 hours. Maximum dose: 8 tablets daily. Not recommended for children below 12 years.\r\n\r\nPreparation: \r\nEac', 'product_images/orcef.jpg', 'orcef', '14'),
+(40, 'Rolac', 'Select Category', 90, 'Indication: \r\nFever, headache, migraine, muscle ache, backache, toothache & menstrual pain.\r\n\r\nDosage & Administration:\r\nAdults: 1-2 tablets every 4-6 hours. Maximum dose: 8 tablets daily. Not recommended for children below 12 years.\r\n\r\nPreparation: \r\nEac', 'product_images/rolac.jpg', 'rolac', '13');
 
 -- --------------------------------------------------------
 
@@ -293,7 +301,7 @@ ALTER TABLE `catagories`
 -- AUTO_INCREMENT for table `customers`
 --
 ALTER TABLE `customers`
-  MODIFY `customer_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=42;
+  MODIFY `customer_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=43;
 
 --
 -- AUTO_INCREMENT for table `orders`
@@ -311,7 +319,7 @@ ALTER TABLE `payment`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `product_id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+  MODIFY `product_id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=41;
 
 --
 -- AUTO_INCREMENT for table `types`
